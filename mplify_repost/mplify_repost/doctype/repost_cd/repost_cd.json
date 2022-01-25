@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-01-25 04:21:53.486340",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "repost_item_valuation",
+  "run"
+ ],
+ "fields": [
+  {
+   "fieldname": "repost_item_valuation",
+   "fieldtype": "Link",
+   "label": "Repost Item Valuation",
+   "options": "Repost Item Valuation"
+  },
+  {
+   "fieldname": "run",
+   "fieldtype": "Button",
+   "label": "run",
+   "options": "run_repost"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-01-25 04:21:53.486340",
+ "modified_by": "Administrator",
+ "module": "Mplify Repost",
+ "name": "repost_cd",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
