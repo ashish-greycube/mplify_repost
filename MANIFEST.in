@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mplify_repost *.css
+recursive-include mplify_repost *.csv
+recursive-include mplify_repost *.html
+recursive-include mplify_repost *.ico
+recursive-include mplify_repost *.js
+recursive-include mplify_repost *.json
+recursive-include mplify_repost *.md
+recursive-include mplify_repost *.png
+recursive-include mplify_repost *.py
+recursive-include mplify_repost *.svg
+recursive-include mplify_repost *.txt
+recursive-exclude mplify_repost *.pyc
